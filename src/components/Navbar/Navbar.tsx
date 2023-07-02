@@ -32,8 +32,8 @@ export const Navbar = () => {
                         <h3 className="text-[#8a8a8a] hover:text-black" >Features</h3>
                         {
                             featuresList ?
-                                <Image src={'/images/icon-arrow-up.svg'} alt="Arrow" priority width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
-                                : <Image src={'/images/icon-arrow-down.svg'} alt="Arrow" priority width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
+                                <Image src={'/images/icon-arrow-up.svg'} alt="Arrow"  width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
+                                : <Image src={'/images/icon-arrow-down.svg'} alt="Arrow"  width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
                         }
 
                     </div>
@@ -42,8 +42,8 @@ export const Navbar = () => {
                         <h3 className="text-[#8a8a8a] hover:text-black">Company</h3>
                         {
                             companyList ?
-                                <Image src={'/images/icon-arrow-up.svg'} alt="Arrow" priority width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
-                                : <Image src={'/images/icon-arrow-down.svg'} alt="Arrow" priority width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
+                                <Image src={'/images/icon-arrow-up.svg'} alt="Arrow"  width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
+                                : <Image src={'/images/icon-arrow-down.svg'} alt="Arrow"  width={0} height={0} sizes="100vw" className="object-cover object-center h-auto w-auto" />
                         }
 
                     </div>
